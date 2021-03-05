@@ -1,0 +1,70 @@
+/* Website Fun Fun */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia;
+  padding: 20px;
+  background: white;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  border: 10px solid olivedrab;
+}
+
+.leftcolumn {
+  float: right;
+  width: 60%;
+  text-align: center;
+}
+
+.rightcolumn {
+  float: left;
+  width: 39%;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.img: center {
+  background-color: white;
+  width: 10%;
+  padding: 10px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border: 5px solid grey;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+#about {
+  background-color: olivedrab;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
